@@ -724,6 +724,30 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+<!-- Botón flotante para el chatbot -->
+<button id="chatbotButton" class="chatbot-toggle" onclick="toggleChatbot()">Chat</button>
+
+
+<!-- Chatbot Pop-up Start -->
+<div id="chatbotPopup" class="chatbot-popup">
+    <div id="chatbotContent" class="chatbot-content">
+        <p>Hola, ¿en qué puedo ayudarte?</p>
+        <button class="chatbot-option" onclick="selectQuestion('servicios')">Servicios de jardinería sustentable</button>
+        <button class="chatbot-option" onclick="selectQuestion('plantas')">Comprar plantas de nuestro vivero</button>
+        <button class="chatbot-option" onclick="selectQuestion('ubicacion')">Dónde estamos ubicados</button>
+        <button class="chatbot-option" onclick="selectQuestion('pedido')">Estado de tu pedido</button>
+        <button class="chatbot-option" onclick="selectQuestion('ayuda')">Necesitas más ayuda</button>
+    </div>
+    <div class="chatbot-footer">
+        <button class="chatbot-close" onclick="toggleChatbot()">Cerrar</button>
+    </div>
+</div>
+<!-- Chatbot Pop-up End -->
+
+
+
+
 </body>
 
 </html>

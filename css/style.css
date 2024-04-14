@@ -518,3 +518,78 @@ h6,
 .copyright a:hover {
     color: var(--primary);
 }
+
+/* Chatbot Styles */
+
+/* Chatbot Toggle Button Styles */
+.chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    z-index: 1100; /* Asegura que el botón esté por encima de otros elementos */
+    transition: background-color 0.3s;
+}
+
+.chatbot-toggle:hover {
+    background-color: #45a049; /* Efecto hover para mejorar la interactividad */
+}
+
+.chatbot-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 20px;
+    z-index: 1000;
+}
+
+.chatbot-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.chatbot-option {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chatbot-option:hover {
+    background-color: #45a049;
+}
+
+.chatbot-footer {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.chatbot-close {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chatbot-close:hover {
+    background-color: #d32f2f;
+}
+
