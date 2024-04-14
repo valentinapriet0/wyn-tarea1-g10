@@ -1,9 +1,72 @@
-  =>  Template Name    : Gardener - Gardening Website Template
+# Gardener Website
 
-  =>  Template Link    : https://htmlcodex.com/gardening-website-template
+Este es el proyecto del sitio web de Gardener, un template de Bootstrap 5 para un sitio web de jardinería, totalmente responsivo y listo para ser personalizado.
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+## Cómo empezar
 
-  =>  Template Author  : HTML Codex
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-  =>  Author Website   : https://htmlcodex.com
+### Prerrequisitos
+
+Debes tener instalado [Git](https://git-scm.com/downloads) y [Visual Studio Code](https://code.visualstudio.com/download) en tu computadora. Asegúrate de tener también la extensión [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) instalada en Visual Studio Code.
+
+### Instalación
+
+Para copiar el repositorio y ver el sitio web en tu local, sigue estos pasos:
+
+1. **Clonar el repositorio**
+
+   Abre la terminal y ejecuta el siguiente comando para clonar el repositorio:
+
+git clone git@github.com:valentinapriet0/wyn-tarea1-g10.git
+cd wyn-tarea1-g10
+
+css
+Copy code
+
+2. **Abrir el proyecto en Visual Studio Code**
+
+Una vez clonado, puedes abrir la carpeta del proyecto en Visual Studio Code:
+
+code .
+
+markdown
+Copy code
+
+3. **Lanzar el servidor con Live Server**
+
+Haz clic derecho sobre el archivo `index.html` y selecciona `Open with Live Server`. Esto abrirá tu navegador predeterminado donde podrás ver el sitio en `http://127.0.0.1:5500`.
+
+## Cómo contribuir
+
+Para contribuir al proyecto, asegúrate de trabajar en una rama específica y no directamente en la rama principal.
+
+1. **Crear y cambiar a una nueva rama**
+
+git checkout -b nombre-de-tu-rama
+
+markdown
+Copy code
+
+Reemplaza `nombre-de-tu-rama` con el nombre que quieras darle a tu rama.
+
+2. **Hacer cambios y commit**
+
+Una vez que hayas hecho tus cambios, guárdalos con los siguientes comandos:
+
+git add .
+git commit -m "Descripción breve de los cambios"
+
+css
+Copy code
+
+3. **Subir los cambios a GitHub**
+
+Para subir tus cambios a GitHub, usa:
+
+git push origin nombre-de-tu-rama
+
+perl
+Copy code
+
+De nuevo, asegúrate de reemplazar `nombre-de-tu-rama` con el nombre de la rama que cre
